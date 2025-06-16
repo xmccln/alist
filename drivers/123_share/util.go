@@ -61,7 +61,7 @@ func (d *Pan123Share) request(url string, method string, callback base.ReqCallba
 		"origin":        "https://www.123pan.com",
 		"referer":       "https://www.123pan.com/",
 		"authorization": "Bearer " + d.AccessToken,
-		"user-agent":    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) alist-client",
+		"user-agent":    "Mozilla/5.0 (Windows NT 10.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.6045.199",
 		"platform":      "web",
 		"app-version":   "3",
 		//"user-agent":    base.UserAgent,
